@@ -85,8 +85,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
-config.sms {
-account_sid = ENV["AC97933738ad5d8fac72da857a2043bdd2"]
-auth_token = ENV["8549d12985b7d27e0846364977c31a0c"]
-number = ENV["+16315097017"]
-}
+# config.ENV {
+# TWILIO_ACCOUNT_SID= ENV["AC97933738ad5d8fac72da857a2043bdd2"]
+# TWILIO_TOKEN = ENV["8549d12985b7d27e0846364977c31a0c"]
+# TWILIO_NUMBER = ENV["+16315097017"]
+# }
