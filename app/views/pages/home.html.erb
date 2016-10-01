@@ -1,7 +1,6 @@
 <h1>Howdy</h1>
-<p>Out of all the cool websites out there you're here. Thank you.
-<br> 
-Here we have a form for you to enter your telephone number into.</p>
+<p>Out of all the cool websites out there you're here. Thank you.</p>
+<p>Here we have a form for you to enter your telephone number into.</p>
 <%= form_tag("/sms/send", method: "post") do %>
   <%= label_tag(:q, "Telephone Number:") %>
   <%= text_field_tag(:q) %>

@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+h1 {text-align:center;}
+form {text-align:center;}
+input {text-align:center;}
+p {text-align:center;}
+
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+
+h1 {
+    color: blue;
+    font-family: helvetica;
+    font-size: 300%;
+}
+p  {
+    color: black;
+    font-family: helvetica;
+    font-size: 160%;
+}
+form {
+    color: red;
+    font-family: helvetica;
+    font-size: 160%;
+}
+h1 {
+    border: 1px solid white;
+    padding: 20px;
+}
+input{
+    color: green;
+    font-family: helvetica;
+    font-size: 100%;
+}
